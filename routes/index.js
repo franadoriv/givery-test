@@ -12,7 +12,7 @@ router.use(bodyParser.json());
 });*/
 
 router.get('/', (req, res) => {
-  res.status(200).json({ message: 'API is running' });
+  res.status(404);
 });
 
 // POST /recipes - Create a new recipe
